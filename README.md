@@ -21,7 +21,7 @@ The current goal is to get under 20ms of latency with 72hz and 2k resolution. We
 (Around Same Hardware As Hades except with MPU change and diffrent PCB
 
 ## Progress
-* %0 * (I js ordered everything and finished the trello gimme a break)
+**0%** (I js ordered everything and finished the trello gimme a break)
 
 P.S. if you wanna help out make a pull request or contact me on Discord!!!
 
