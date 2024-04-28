@@ -20,6 +20,16 @@ The current goal is to get under 20ms of latency with 72hz and 2k resolution. We
 2x HadesVR Or Flo3VR Controller 
 (Around Same Hardware As Hades except with MPU change and diffrent PCB
 
+| Components  | Amount |
+| ------------- | ------------- |
+| Pro Mini  | 1x  |
+| NRF24L01  | 1x  |
+| ICM20948  | 1x  |
+| Raspberry Pi 4 Model B. | 1x. |
+| LS055R1SX04  | 1x  |
+| Customized PCB  | 1x  |
+| HadesVR Or Flo3VR Controller | 2x  | 
+
 ## Progress
 **0%** (I js ordered everything and finished the trello gimme a break)
 
