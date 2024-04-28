@@ -26,6 +26,6 @@ The current goal is to get under 20ms of latency with 72hz and 2k resolution. We
 P.S. if you wanna help out make a pull request or contact me on Discord!!!
 
 ### Trello & Discord
-Trello:
+Trello: https://trello.com/b/QIIqky8U (Add Suggestions to suggestions category)
 Discord: stringsbutanalt 
 
