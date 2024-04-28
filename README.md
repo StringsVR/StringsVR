@@ -11,7 +11,7 @@ StringsVR is aimed to make a wireless SteamVR-compatible setup using the Raspber
 The current goal is to get under 20ms of latency with 72hz and 2k resolution. We believe this will be feasible due the use [Sunshine](https://github.com/LizardByte/Sunshine) and [Moonlight](https://github.com/moonlight-stream/moonlight-qt)
 
 ### Hardware
-1x Pro Micro
+1x Pro Mini
 2x NRF24L01
 1x ICM20948
 1x Raspberry Pi 4 Model B
