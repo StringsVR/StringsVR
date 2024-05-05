@@ -25,7 +25,7 @@ The current goal is to get under 20ms of latency with 72hz and 2k resolution. We
 (Around Same Hardware As Hades except with MPU change and diffrent PCB
 
 ## Progress
-**2.5%** Working on streaming and have successfully been able to send VR display to Pi
+**40%** Visual Streaming has been optimized to the maximum (4k@60hz). What's left is forking and stripping down PiOS and sending and receiving packets
 
 P.S. if you wanna help out make a pull request or contact me on Discord!!!
 
