@@ -14,7 +14,7 @@ The current goal is to get under 20ms of latency with 72hz and 2k resolution. We
 
 | Components  | Amount |
 | ------------- | ------------- |
-| Pro Mini  | 1x  |
+| Pro Micro | 1x  |
 | NRF24L01  | 1x  |
 | ICM20948  | 1x  |
 | Raspberry Pi 4 Model B. | 1x. |
@@ -25,7 +25,7 @@ The current goal is to get under 20ms of latency with 72hz and 2k resolution. We
 (Around Same Hardware As Hades except with MPU change and diffrent PCB
 
 ## Progress
-**40%** Visual Streaming has been optimized to the maximum (4k@60hz). What's left is forking and stripping down PiOS and sending and receiving packets
+**65%** Visual Streaming has been optimized to the maximum (4k@60hz). What's left is forking and stripping down PiOS and sending and receiving packets
 
 P.S. if you wanna help out make a pull request or contact me on Discord!!!
 
