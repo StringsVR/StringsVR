@@ -24,6 +24,9 @@ StringsVR is currently capable of streaming 2k@72hz over a strong wifi connectio
 | 125V 2-Pin On/Off Switch  | 1x  |
 | Hades/Relativity Arduino PCBs  | 1x  |
 
+### Progress 
+**85%** Need to add automation to startup of Pi4, Make 3d model of HMD, Finish Wiki.
+
 ### How To Setup & Build
 Check The Wiki **TODO**
 
