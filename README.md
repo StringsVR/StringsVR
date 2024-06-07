@@ -34,3 +34,5 @@ Check The Wiki **TODO**
 Trello: https://trello.com/b/QIIqky8U (Add Suggestions to suggestions category)
 Discord: stringsbutanalt 
 
+**(Special note: Thank you Atores so much for the help with the PCB)**
+
