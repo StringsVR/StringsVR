@@ -28,7 +28,7 @@ StringsVR is currently capable of streaming 2k@72hz over a strong wifi connectio
 **85%** Need to add automation to startup of Pi4, Make 3d model of HMD, Finish Wiki.
 
 ### How To Setup & Build
-Check The Wiki **TODO**
+Check The [Wiki](https://github.com/StringsVR/StringsVR/wiki/Getting-Started).
 
 ### Trello & Discord
 Trello: https://trello.com/b/QIIqky8U (Add Suggestions to suggestions category)
