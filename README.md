@@ -1,6 +1,6 @@
 # Strings VR
 ![logo](Wiki/logo.png | width=200 )
-
+<img src="https://github.com/StringsVR/StringsVR/Wiki/logo.png" width="200" height="200">
 
 ## Vision
 
