@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.2*
+G04 #@! TF.CreationDate,2024-06-19T11:25:55-04:00*
+G04 #@! TF.ProjectId,StringsVR-PiHat,53747269-6e67-4735-9652-2d5069486174,1*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.2) date 2024-06-19 11:25:55*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.038100*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X114520000Y-71110000D02*
+X180320000Y-71110000D01*
+X180320000Y-139110000D01*
+X114520000Y-139110000D01*
+X114520000Y-71110000D01*
+M02*
