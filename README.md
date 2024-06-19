@@ -1,5 +1,5 @@
 # Strings VR
-![logo](Wiki/logo.png)
+![logo](Wiki/logo.png | width=200 )
 
 
 ## Vision
