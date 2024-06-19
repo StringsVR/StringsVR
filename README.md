@@ -1,5 +1,5 @@
 # Strings VR
-[1](https://github.com/StringsVR/StringsVR/blob/main/Wiki/logo.png)
+(https://github.com/StringsVR/StringsVR/blob/main/Wiki/logo.png)
 
 
 ## Vision
