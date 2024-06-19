@@ -1,5 +1,5 @@
 # Strings VR
-(PS. if you have a better name lmk 💀)
+[1](https://github.com/StringsVR/StringsVR/blob/main/Wiki/logo.png)
 
 
 ## Vision
