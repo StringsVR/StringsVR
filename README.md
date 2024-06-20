@@ -12,16 +12,16 @@ StringsVR is currently capable of streaming 2k@72hz over a strong wifi connectio
 
 ### Hardware
 
+#### Power PCB
+
 | Components  | Amount |
 | ------------- | ------------- |
-| Custom PCB | 1x  |
-| 3000mah 18650  | 3x  |
-| TP4056  | 1x  |
-| MT3086  | 1x  |
-| Rasphberry Pi 4B 4gb+  | 1x  |
-| Arduino Header  | 2x  |
-| 125V 2-Pin On/Off Switch  | 1x  |
-| Hades/Relativity Arduino PCBs  | 1x  |
+| 3200mah 18650 | 3x |
+| TP4056 | 1x |
+| U3V40F5 | 1x |
+| 2x1 Arduino Header | 1x |
+| SPDT Power Switch | 1x |
+
 
 ### Progress 
 **85%** Need to add automation to startup of Pi4, Make 3d model of HMD, Finish Wiki.
