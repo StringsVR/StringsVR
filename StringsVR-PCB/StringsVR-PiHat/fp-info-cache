@@ -1,4 +1,4 @@
-23068403478249160
+23064965256006766
 3306F-1-503
 3306F1503
 3306F-1-503-1
@@ -53654,6 +53654,34 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+Custom Symbols
+LED_D5.0mm-4_RGB
+LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf
+LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED
+0
+4
+4
+Custom Symbols
+MPU6050
+
+
+0
+8
+8
+Custom Symbols
+Pin_Header_Straight_2x20_Pitch2.54mm
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
+Custom Symbols
+nRF24L01
+
+
+0
+8
+8
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -87730,48 +87758,6 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
-Strings_Custom_Symbols
-LED_D5.0mm-4_RGB
-LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf
-LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED
-0
-4
-4
-Strings_Custom_Symbols
-MPU6050
-
-
-0
-8
-8
-Strings_Custom_Symbols
-Pin_Header_Straight_2x20_Pitch2.54mm
-Through hole straight pin header, 2x20, 2.54mm pitch, double rows
-Through hole pin header THT 2x20 2.54mm double row
-0
-40
-40
-Strings_Custom_Symbols
-Pro Micro
-
-
-0
-24
-24
-Strings_Custom_Symbols
-SW_SRB22A2BBBNN_ZFE
-
-SRB22A2BBBNN 
-0
-2
-2
-Strings_Custom_Symbols
-nRF24L01
-
-
-0
-8
-8
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking

@@ -3355,29 +3355,50 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPDT"
+		(symbol "SW_SRB22A2BBBNN_ZFE:SRB22A2BBBNN"
 			(pin_names
-				(offset 0) hide)
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 5.08 0)
+				(at 0 3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
+			(property "Value" "SRB22A2BBBNN"
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SW_SRB22A2BBBNN_ZFE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SRB22A2BBBNN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3386,16 +3407,15 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
+			(property "ki_locked" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Description" "Switch, single pole double throw"
+			(property "ki_keywords" "SRB22A2BBBNN"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3404,7 +3424,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "ki_fp_filters" "SW_SRB22A2BBBNN_ZFE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3413,12 +3433,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_0_1"
+			(symbol "SRB22A2BBBNN_0_1"
 				(circle
-					(center -2.032 0)
-					(radius 0.4572)
+					(center -3.175 0)
+					(radius 0.635)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3427,10 +3447,34 @@
 				)
 				(polyline
 					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
+						(xy -5.08 0) (xy -3.81 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -3438,44 +3482,20 @@
 					)
 				)
 				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
+					(center 3.175 0)
+					(radius 0.635)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
+				(pin unspecified line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3490,10 +3510,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 0 0)
+				(pin unspecified line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "B"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3501,24 +3521,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4292,12 +4294,6 @@
 		(uuid "1ebdac40-794d-4379-bea5-511f43c844ca")
 	)
 	(junction
-		(at 190.5 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2167fa51-b2fe-4595-89b3-8e655153a4e4")
-	)
-	(junction
 		(at 88.9 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4338,6 +4334,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4604b06-6bb8-4adb-84c2-d18726445f54")
+	)
+	(junction
+		(at 190.5 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbf84a5a-5e4c-48dd-a1c8-5c025c86f038")
 	)
 	(no_connect
 		(at 58.42 38.1)
@@ -4458,10 +4460,6 @@
 	(no_connect
 		(at 60.96 102.87)
 		(uuid "6b676ed4-a4b5-42bb-b5e1-d62c1880caf4")
-	)
-	(no_connect
-		(at 175.26 24.13)
-		(uuid "6ee9add7-9752-471f-93c4-9c3f5b9032d8")
 	)
 	(no_connect
 		(at 164.9901 83.0874)
@@ -4637,6 +4635,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 29.21) (xy 190.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18abeb67-b562-46c6-9b7a-dcda3348f2ea")
+	)
+	(wire
+		(pts
 			(xy 86.36 82.55) (xy 86.36 85.09)
 		)
 		(stroke
@@ -4694,6 +4702,16 @@
 			(type default)
 		)
 		(uuid "323e870b-cf21-4e87-922e-65cd905b43f0")
+	)
+	(wire
+		(pts
+			(xy 190.5 29.21) (xy 190.5 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bde1f4-6934-479d-bcab-0c0d01deef9b")
 	)
 	(wire
 		(pts
@@ -4757,16 +4775,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 27.94) (xy 190.5 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "628927c1-ba4b-4c18-a8d2-3270cb2c72b4")
-	)
-	(wire
-		(pts
 			(xy 41.91 33.02) (xy 43.18 33.02)
 		)
 		(stroke
@@ -4817,6 +4825,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 29.21) (xy 167.64 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "725d2115-8e2d-4b30-9025-25b2fe615102")
+	)
+	(wire
+		(pts
 			(xy 177.6901 75.4674) (xy 178.9601 75.4674)
 		)
 		(stroke
@@ -4864,16 +4882,6 @@
 			(type default)
 		)
 		(uuid "8de96461-f819-4b3e-90bc-7b4a90f47124")
-	)
-	(wire
-		(pts
-			(xy 172.72 35.56) (xy 172.72 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90b75603-b822-4811-9e58-1f9edd44aa3c")
 	)
 	(wire
 		(pts
@@ -4957,17 +4965,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 35.56) (xy 186.69 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b422d062-abf6-4851-ba11-f873dc2d59c8")
-	)
-	(wire
-		(pts
-			(xy 190.5 30.48) (xy 190.5 27.94)
+			(xy 190.5 30.48) (xy 190.5 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4977,7 +4975,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 24.13) (xy 170.18 24.13)
+			(xy 167.64 29.21) (xy 170.18 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4994,16 +4992,6 @@
 			(type default)
 		)
 		(uuid "bebe218f-49f3-427e-8d69-36d1fac967a9")
-	)
-	(wire
-		(pts
-			(xy 186.69 27.94) (xy 186.69 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6b2fb68-9889-468d-8e91-7d1c0cd72a56")
 	)
 	(wire
 		(pts
@@ -5054,6 +5042,16 @@
 			(type default)
 		)
 		(uuid "ee06df79-e164-4a0d-a472-3d10ca9481b6")
+	)
+	(wire
+		(pts
+			(xy 167.64 24.13) (xy 149.86 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee917373-d0ef-4cd9-9ea4-9de74677e1e2")
 	)
 	(wire
 		(pts
@@ -5937,7 +5935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04c49273-e7fc-4b6e-80c6-c233dc24c339")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG010"
 			(at 194.945 38.1 0)
 			(effects
 				(font
@@ -5988,7 +5986,7 @@
 		(instances
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#FLG09")
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)
@@ -6003,7 +6001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bb76055-2f6c-4764-9886-baa9f4b7335e")
-		(property "Reference" "#FLG012"
+		(property "Reference" "#FLG02"
 			(at 37.465 95.25 0)
 			(effects
 				(font
@@ -6054,7 +6052,7 @@
 		(instances
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#FLG012")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -6219,7 +6217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dab8776-cf95-4046-84cb-95930b66525a")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 224.79 31.75 0)
 			(effects
 				(font
@@ -6272,7 +6270,7 @@
 		(instances
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "U2")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -6344,7 +6342,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#FLG05")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -6360,7 +6358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26f3671f-a68a-4368-8d60-3bca5ddf5f8b")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 224.79 27.94 0)
 			(effects
 				(font
@@ -6413,7 +6411,7 @@
 		(instances
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6429,7 +6427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29833d1e-f0ff-4c72-aba6-a5d94459f386")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR08"
 			(at 163.83 31.75 0)
 			(effects
 				(font
@@ -6480,7 +6478,7 @@
 		(instances
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#PWR01")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6582,7 +6580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Arduino:nRF24L01"
+		(property "Footprint" "Strings_Custom_Symbols:nRF24L01"
 			(at 92.71 26.67 0)
 			(effects
 				(font
@@ -6658,7 +6656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "352aad11-071b-4526-9134-aaa2fc69c32c")
-		(property "Reference" "U3"
+		(property "Reference" "U8"
 			(at 224.79 35.56 0)
 			(effects
 				(font
@@ -6711,7 +6709,7 @@
 		(instances
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "U3")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -6783,7 +6781,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#PWR04")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6799,7 +6797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ec857bd-acb1-4c5f-8a2a-cdfb202f12e4")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR06"
 			(at 91.44 66.04 0)
 			(effects
 				(font
@@ -6849,7 +6847,7 @@
 		(instances
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#PWR011")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7086,6 +7084,76 @@
 		)
 	)
 	(symbol
+		(lib_id "SW_SRB22A2BBBNN_ZFE:SRB22A2BBBNN")
+		(at 177.8 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ac6cca7-c789-4489-bd66-af77b6a80ce2")
+		(property "Reference" "SW2"
+			(at 177.8 22.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SRB22A2BBBNN"
+			(at 177.8 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SW_SRB22A2BBBNN_ZFE"
+			(at 177.8 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SRB22A2BBBNN"
+			(at 177.8 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9727ced1-a349-4e12-99a5-9dbb95019a48")
+		)
+		(pin "2"
+			(uuid "deddc996-851f-4e15-a022-b4cf1a12a11b")
+		)
+		(instances
+			(project "StringsVR-Power"
+				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 91.44 78.74 0)
 		(unit 1)
@@ -7226,7 +7294,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#FLG07")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -7304,78 +7372,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 172.72 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88918c60-0fa7-44ba-8ff0-961b2276ad94")
-		(property "Reference" "SW1"
-			(at 178.816 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ON/OFF"
-			(at 177.038 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
-			(at 172.72 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 172.72 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f8a3c268-d885-4843-a31f-1a33a69e3d84")
-		)
-		(pin "1"
-			(uuid "c5b8e080-1eaa-4b79-8f36-320e28d9c1bc")
-		)
-		(pin "3"
-			(uuid "9986d664-593d-4f1e-9a2a-9c507889f9fa")
-		)
-		(instances
-			(project "StringsVR-Power"
-				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 178.9601 75.4674 90)
@@ -7442,7 +7438,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7474,7 +7470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Arduino:nRF24L01"
+		(property "Footprint" "Strings_Custom_Symbols:nRF24L01"
 			(at 45.72 26.67 0)
 			(effects
 				(font
@@ -7534,7 +7530,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -7549,7 +7545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92e3ccec-2554-4c5e-9858-38ed50f7a6fd")
-		(property "Reference" "#FLG010"
+		(property "Reference" "#FLG08"
 			(at 163.0851 103.4074 0)
 			(effects
 				(font
@@ -7600,7 +7596,7 @@
 		(instances
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#FLG010")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -7616,7 +7612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93cb20a9-714b-4b3b-abe0-e34ebefaf5d0")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG09"
 			(at 191.6601 102.7724 0)
 			(effects
 				(font
@@ -7667,7 +7663,7 @@
 		(instances
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#FLG01")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -7740,7 +7736,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7881,7 +7877,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#FLG04")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -8028,7 +8024,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#PWR06")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8061,7 +8057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Arduino:Pin_Header_Straight_2x20_Pitch2.54mm"
+		(property "Footprint" "Strings_Custom_Symbols:Pin_Header_Straight_2x20_Pitch2.54mm"
 			(at 172.6101 83.0874 0)
 			(effects
 				(font
@@ -8290,7 +8286,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8306,7 +8302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c06b85e0-7fe7-42c6-a95c-d007d1965732")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR012"
 			(at 190.5 33.02 0)
 			(effects
 				(font
@@ -8357,7 +8353,7 @@
 		(instances
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#PWR02")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8430,7 +8426,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#PWR08")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8502,7 +8498,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8573,7 +8569,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#FLG08")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -8588,8 +8584,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4b98cb6-58fd-4d96-a38f-1b5e84066ffa")
-		(property "Reference" "U1"
-			(at 137.795 36.83 0)
+		(property "Reference" "U4"
+			(at 138.43 35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8652,7 +8648,7 @@
 		(instances
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8723,7 +8719,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#FLG06")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -8797,7 +8793,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8883,7 +8879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efb7c505-3ac4-4002-a168-0646db350fbb")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 190.5 35.56 0)
 			(effects
 				(font
@@ -8934,7 +8930,7 @@
 		(instances
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8966,7 +8962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Arduino:Pro Micro"
+		(property "Footprint" "Strings_Custom_Symbols:Pro Micro"
 			(at 53.34 99.06 0)
 			(effects
 				(font
@@ -9074,7 +9070,7 @@
 			)
 			(project "StringsVR-Power"
 				(path "/f333c9e7-5eac-4368-8e6e-7f47fd2582f9"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9105,7 +9101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Arduino:MPU6050"
+		(property "Footprint" "Strings_Custom_Symbols:MPU6050"
 			(at 86.36 121.92 0)
 			(effects
 				(font
