@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -45 0)
+		(at 52.806602 -1.456602 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "StringsVRPCB"
-		(at -10 -45 0)
+		(at 42.806602 -1.456602 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ad9f196c-4e88-4aff-86a9-b19438dc222c")
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 -43 0)
+		(at 52.806602 0.543398 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 -43 0)
+		(at 52.806602 0.543398 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,7 +55,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 -43 0)
+		(at 52.806602 0.543398 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,8 +68,88 @@
 		)
 	)
 	(fp_line
-		(start -82.193398 -12.956601)
-		(end -82.193398 12.743399)
+		(start 0 1.25)
+		(end 0 21.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "678308f1-688f-4509-b4c5-8e69b9c0f2af")
+	)
+	(fp_line
+		(start 0 21.25)
+		(end -20 21.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fe93cc4d-a440-488e-8f16-5117fc1a48c7")
+	)
+	(fp_line
+		(start 0 66.25)
+		(end -20 66.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "03320f71-85c2-4c78-8a1f-b86ed0816b6e")
+	)
+	(fp_line
+		(start 0 66.25)
+		(end 0 86.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dd2346dc-65a8-45c4-a942-1e5f4b642aae")
+	)
+	(fp_line
+		(start 105 1.25)
+		(end 105 21.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "24042805-1775-44af-9b15-8c7a069f02a1")
+	)
+	(fp_line
+		(start 105 66.25)
+		(end 105 86.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "74fd93c2-2bd5-43c9-b133-ddf130fcb9e0")
+	)
+	(fp_line
+		(start 125 21.25)
+		(end 105 21.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e10a113b-fcdc-4c96-bf5a-86f391385f5c")
+	)
+	(fp_line
+		(start 125 66.25)
+		(end 105 66.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "547cb701-2250-4196-8a9d-d191a9c69fe4")
+	)
+	(fp_line
+		(start -20 21.25)
+		(end -20 66.25)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -78,8 +158,8 @@
 		(uuid "827722e0-3691-4bae-8dfb-7f543f1f6603")
 	)
 	(fp_line
-		(start -52.193398 42.743399)
-		(end 52.193399 42.656602)
+		(start 0 86.25)
+		(end 105 86.25)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -88,8 +168,8 @@
 		(uuid "680875b8-da32-437a-b6a9-feafc9b79270")
 	)
 	(fp_line
-		(start 52.193399 -43.043398)
-		(end -52.193398 -42.956601)
+		(start 105 1.25)
+		(end 0 1.25)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -98,8 +178,8 @@
 		(uuid "b92d04f1-8be5-4382-9490-1bfc84268705")
 	)
 	(fp_line
-		(start 82.193399 12.656602)
-		(end 82.193399 -13.043398)
+		(start 125 66.25)
+		(end 125 21.25)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -108,20 +188,9 @@
 		(uuid "68ea84de-687c-4906-8a56-cd9031b8c635")
 	)
 	(fp_arc
-		(start -82.193398 -12.956601)
-		(mid -73.406601 -34.169804)
-		(end -52.193398 -42.956601)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b2913105-0142-416c-81af-95549c90700d")
-	)
-	(fp_arc
-		(start -52.193398 42.743399)
-		(mid -73.406601 33.956602)
-		(end -82.193398 12.743399)
+		(start -20 21.25)
+		(mid -14.142136 7.107864)
+		(end 0 1.25)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -130,25 +199,36 @@
 		(uuid "7efeb67c-24f9-44ca-b39b-8aae141bb0a1")
 	)
 	(fp_arc
-		(start 52.193399 -43.043398)
-		(mid 73.406603 -34.256602)
-		(end 82.193399 -13.043398)
+		(start 0 86.25)
+		(mid -14.142136 80.392136)
+		(end -20 66.25)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "53535c35-4bce-4f87-a583-8f7ebed9302b")
+		(uuid "117dd74e-8a66-4293-b8f4-45be571c1135")
 	)
 	(fp_arc
-		(start 82.193399 12.656602)
-		(mid 73.406599 33.869801)
-		(end 52.193399 42.656602)
+		(start 105 1.25)
+		(mid 119.142136 7.107864)
+		(end 125 21.25)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "46d6e3bf-5345-466c-8b28-539511614f21")
+		(uuid "9daf8a10-ddc6-47b4-b38f-66a949b49f8f")
+	)
+	(fp_arc
+		(start 125 66.25)
+		(mid 119.142136 80.392136)
+		(end 105 86.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f74885ef-35cd-446b-aea8-9924c9d84a9d")
 	)
 )
