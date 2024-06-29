@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "pro_micro")(type "KiCad")(uri "F:/Sauce/StringsVR/StringsVR-PCB/Custom Symbols/pro_micro.kicad_sym")(options "")(descr ""))
+)

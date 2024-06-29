@@ -1,0 +1,220 @@
+(footprint "LED_D5.0mm-4_RGB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf")
+	(tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED")
+	(property "Reference" "D1"
+		(at 0.005 -2 0)
+		(layer "F.SilkS")
+		(uuid "12fb5860-058d-4c5d-bd53-138fe1ebb60d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_RABG"
+		(at 4 0 -90)
+		(layer "F.Fab")
+		(uuid "6a4f3871-821e-4960-9443-c352d0a9c157")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
+		(at 18.5 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea5414a1-5e5a-4c23-980e-dd625bb1299a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1.9 -0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f0d4f5e-0fd3-47c9-8fb8-32a75d8fb9bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RGB LED, red/anode/blue/green"
+		(at 20.5 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "187571fa-d1f1-477d-805f-e38c98d072c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -2.846062 -0.924771)
+		(mid 0 -3)
+		(end 2.923488 -1.035346)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa4daf54-acb6-4e10-9ebf-64298948b349")
+	)
+	(fp_line
+		(start -3.25 -3.25)
+		(end -3.25 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "daca0c6d-c868-4f6f-820b-0a04d5ead13c")
+	)
+	(fp_line
+		(start -3.25 3.25)
+		(end 3.25 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "158ed36f-e4bb-4424-a6f1-541f36e6962e")
+	)
+	(fp_line
+		(start 3.25 -3.25)
+		(end -3.25 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7ffb77d-3d93-4188-a4c3-e534b5a4cc5f")
+	)
+	(fp_line
+		(start 3.25 3.25)
+		(end 3.25 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02dd1ad6-1961-4a0f-ae54-ed243bf34c27")
+	)
+	(fp_text user "R"
+		(at -2.770742 2.457511 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "0c65ce47-c742-4c95-bdbf-ea3a16b7292a")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "A"
+		(at -1.360182 2.457511 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "4942b238-937c-42f8-b75d-6eea0f441f3d")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "G"
+		(at -0.122344 2.450314 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "9b646eb9-814c-47e7-b925-d21c3f71e69f")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B"
+		(at 1.1172 2.449929 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "b049ad70-60e3-4dd5-a9d4-807326f9fa20")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.9 -0.25)
+		(size 1.07 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ac902ec-0535-4d10-9bdd-f8ff36ff7dde")
+	)
+	(pad "2" thru_hole oval
+		(at -0.63 -0.25)
+		(size 1.07 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5290ce6e-6cb9-48c1-8f56-016c778cbd7c")
+	)
+	(pad "3" thru_hole oval
+		(at 0.64 -0.25)
+		(size 1.07 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5888fe64-9b2b-4088-baba-36f96f2da98f")
+	)
+	(pad "4" thru_hole oval
+		(at 1.91 -0.25)
+		(size 1.07 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7d0c090-0667-4131-99d9-b713530298a5")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm-4_RGB.wrl"
+		(offset
+			(xyz -1.9 0.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
