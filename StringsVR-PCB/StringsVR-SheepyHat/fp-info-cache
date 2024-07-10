@@ -1,4 +1,4 @@
-23627985909160134
+23629705322943226
 3306F-1-503
 3306F1503
 3306F-1-503-1
@@ -84321,6 +84321,13 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Pi4
+MODULE_RASPBERRY_PI_4B_4GB
+
+
+0
+48
+48
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
