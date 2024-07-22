@@ -53,5 +53,7 @@ Check The [Wiki](https://github.com/StringsVR/StringsVR/wiki/Getting-Started).
 Trello: https://trello.com/b/QIIqky8U (Add Suggestions to suggestions category)
 Discord: stringsbutanalt 
 
-**(Special note: Thank you Atores so much for the help with the PCB)**
+# Project is on pause until my wrist injury is gone.
+
+
 
