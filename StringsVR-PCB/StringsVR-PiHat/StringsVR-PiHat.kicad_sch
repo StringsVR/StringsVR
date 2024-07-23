@@ -17,23 +17,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 -6.35 0)
+			(property "Reference" "U1"
+				(at 29.21 -4.445 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 -6.35 0)
+			(property "Value" "~"
+				(at 26.67 -4.445 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Arduino:Pro Micro"
 				(at 0 -6.35 0)
 				(effects
 					(font
