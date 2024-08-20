@@ -53,7 +53,7 @@ Check The [Wiki](https://github.com/StringsVR/StringsVR/wiki/Getting-Started).
 Trello: https://trello.com/b/QIIqky8U (Add Suggestions to suggestions category)
 Discord: stringsbutanalt 
 
-# Project is on pause until my wrist injury is gone.
+# Project is back in development!!
 
 
 
