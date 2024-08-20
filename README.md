@@ -19,7 +19,7 @@ StringsVR is currently capable of streaming 2k@72hz over a strong wifi connectio
 | 3200mah 18650 | 3x |
 | 18650 Holder PCB | 3x |
 | TP4056 | 1x |
-| U3V40F5 | 1x |
+| MT3086 | 1x |
 | 2x1 Arduino Header | 1x |
 | SPDT Power Switch | 1x |
 | StringsVR Power PCB | 1x |
@@ -36,15 +36,15 @@ StringsVR is currently capable of streaming 2k@72hz over a strong wifi connectio
 #### Misc
 | Components  | Amount |
 | ------------- | ------------- |
-| Raspberry Pi4B 4GB | 1x |
+| Orange Pi Zero 2W 2GB | 1x |
 | LS055R1SX04 | 1x |
 | HDMI Mini to HDMI Micro USB | 1x |
 | USB-Micro USB 5V@1A | 1x |
 | 50mmX30mm lenses | 1x |
 
 
-### Progress 
-**85%** Need to add automation to startup of Pi4, Make 3d model of HMD, Finish Wiki.
+### Progress ##
+**V1 currently is out**, Wiki is not finished but is buildable. V2 will be alot easier setup involving controllers aswell asmore compact
 
 ### How To Setup & Build
 Check The [Wiki](https://github.com/StringsVR/StringsVR/wiki/Getting-Started).
