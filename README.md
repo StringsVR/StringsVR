@@ -4,10 +4,10 @@
 ## Vision
 
 ### Overview
-StringsVR is aimed to make a wireless SteamVR-compatible setup using the Raspberry Pi 4 and Arduinos, 6dof tracking also supported via PsMoveServiceEx. 
+StringsVR is aimed to make a wireless SteamVR-compatible setup using the Orange Pi 2W, 6dof tracking also supported through cameras on front of Headset.
 
 ### Streaming
-StringsVR is currently capable of streaming 2k@72hz over a strong wifi connection with 13ms of latency.
+StringsVR is currently capable of streaming 2k@72hz over a strong wifi connection with 19ms of latency.
 **(This will highly depend on your Wi-Fi it is recommended to have your PC connected to ethernet)** 
 
 ### Hardware
@@ -23,15 +23,7 @@ StringsVR is currently capable of streaming 2k@72hz over a strong wifi connectio
 | 2x1 Arduino Header | 1x |
 | SPDT Power Switch | 1x |
 | StringsVR Power PCB | 1x |
-
-#### Arduino PiHat PCB
-| Components  | Amount |
-| ------------- | ------------- |
-| Pro Micro | 1x |
-| NRF24L01 | 2x |
 | MPU9250 | 1x |
-| LED RGB Anode | 1x |
-| PiHat PCB | 1x |
 
 #### Misc
 | Components  | Amount |
@@ -44,7 +36,7 @@ StringsVR is currently capable of streaming 2k@72hz over a strong wifi connectio
 
 
 ### Progress ##
-**V1 currently is out**, Wiki is not finished but is buildable. V2 will be alot easier setup involving controllers aswell asmore compact
+**V2 currently is out**, Wiki is not finished but is buildable. V2 will be alot easier setup involving controllers aswell asmore compact
 
 ### How To Setup & Build
 Check The [Wiki](https://github.com/StringsVR/StringsVR/wiki/Getting-Started).
